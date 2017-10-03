@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,EAAG;EACD,UAAU,EAAE,IAAI;EAChB,YAAY,EAAE,CAAC;;AAGjB,EAAG;EACD,KAAK,EAAE,KAAK;EACZ,gBAAgB,EAAE,OAAO;EACzB,aAAa,EAAE,IAAI",
+"sources": ["beerslist.component.scss"],
+"names": [],
+"file": "beerslist.component.css"
+}
