@@ -1,0 +1,45 @@
+
+ul
+{
+    /*!* We first create a flex layout context *!*/
+    /*display: inline-flex;*/
+
+    /*!* Then we define the flow direction*/
+       /*and if we allow the items to wrap*/
+     /** Remember this is the same as:*/
+     /** flex-direction: row;*/
+     /** flex-wrap: wrap;*/
+     /**!*/
+    /*flex-flow: row wrap;*/
+
+    /*!* Then we define how is distributed the remaining space *!*/
+    /*justify-content: center;*/
+
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    width: 500px;
+    background-color: #00ee00;
+    padding-right: 20px;
+}
+
+/*.modifier {*/
+    /*background-color: #96d1de;*/
+
+    /*padding: 20px 20px 20px 20px;*/
+    /*margin-bottom: 20px;*/
+    /*border-style: solid;*/
+    /*border-color: #2d7fff;*/
+/*}*/
+
+/*.clean {*/
+    /*clear: both;*/
+/*}*/
+
+/*.navcolorize {*/
+    /*background-color: #ecfdf6;*/
+    /*box-shadow: 3px 3px 5px #888888;*/
+    /*margin-bottom: 10px;*/
+/*}*/
