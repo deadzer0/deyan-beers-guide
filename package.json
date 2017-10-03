@@ -4,18 +4,18 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "node server.js",                            //replace ng serve with node
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --aot --target=production"   // build script for production
+    "postinstall": "ng build --aot --target=production"
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "^4.2.4",
-    "@angular/cli": "1.3.0",                              // move from devDep to Dep
-    "@angular/common": "^4.2.4",                          // move from devDep to Dep
+    "@angular/cli": "1.3.0",
+    "@angular/common": "^4.2.4",
     "@angular/compiler": "^4.2.4",
     "@angular/compiler-cli": "^4.2.4",
     "@angular/core": "^4.2.4",
@@ -30,7 +30,7 @@
     "font-awesome": "^4.7.0",
     "ngx-pagination": "^3.0.1",
     "rxjs": "^5.4.2",
-    "typescript": "~2.3.3",                             // move from devDep to Dep
+    "typescript": "~2.3.3",
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
@@ -51,7 +51,7 @@
     "ts-node": "~3.2.0",
     "tslint": "~5.3.2"
   },
-  "engines": {                                        // build this for Heorku to know node & npm versions
+  "engines": {
     "node": "6.11.3",
     "npm": "3.10.10"
   }
